@@ -1,0 +1,81 @@
+/**/
+
+a {
+  text-decoration: none;
+  color: white !important;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #9218cf !important;  /* #DC3876 */
+  text-decoration: none;
+}
+
+label[data-testid="stWidgetLabel"] p {
+  font-weight: bold;
+}
+
+hr {/* Remove the extra space after the devider*/
+  margin-top: 5px;/* Can use % if needed*/
+  margin-bottom: 5px;
+}
+
+/* espace ecran (haut, droite+gauche)*/
+.st-emotion-cache-z5fcl4 {
+  padding: 1rem 2.5rem 10rem
+}
+
+/* SideBar espace ecran (haut, droite+gauche, bas*/
+.st-emotion-cache-10oheav{
+  padding: 4rem 1rem
+}
+
+/* SideBar */
+section[data-testid="stSidebar"] {
+  width : max-content
+}
+
+div[data-testid="stImage"] {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 100%;
+}
+
+/* Les Bouttons */
+.stButton {
+  display: grid;
+  place-items: center;
+}
+
+/*remove extra space*/
+.body {
+  line-height: 0;
+}
+
+
+/* clickable img hover */
+.img-hover-effect:hover {
+  opacity: 0.8; /* Example: Reduce opacity when hovered */
+  transform: scale(1.15); /* Example: Slightly enlarge the image when hovered */
+}
+
+
+/* sidebar Arrow */
+button[data-testid="baseButton-headerNoPadding"]{
+  background-color: #9218cf !important;
+  padding: 10px 10px !important;
+}
+
+button[data-testid="baseButton-header"]{
+  background-color: #9218cf !important;
+  padding: 10px 10px !important;
+}
+
+
+/**/
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+div[data-testid="collapsedControl"] {visibility: visible;}
+div[data-testid="stSidebar"] {visibility: visible;}
