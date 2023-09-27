@@ -46,7 +46,7 @@ if nav_menu == 'Home':
         st.info("\
             This app is a simple clone of two LLMs (Llama-2 & OpenAI) AI Chatbots using specific API keys :\
             \n● Llama-2 : Since this LLM is open source, we must use a hosting service, in our case, we used Replicate.\
-            \n● OpenAI : We can simply use a OpenAi API key.\
+            \n● OpenAI : We can simply use an OpenAI API key.\
             \n\nTo build a chatbot using srtreamlit, please check the following blog posts : \
             [Llama-2](https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/)\
              & \
