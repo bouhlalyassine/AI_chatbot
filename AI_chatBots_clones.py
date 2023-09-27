@@ -44,7 +44,7 @@ if nav_menu == 'Home':
     colpi1, colpi2 = st.columns([75, 25], gap="small")
     with colpi1:
         st.info("\
-            This app is a simple clone of two LLMs (Llama-2 & OpenAI) AI Chatbots using specific API keys :\
+            This app is a simple clone of two LLMs (Llama-2 & OpenAI-3.5) AI Chatbots using specific API keys :\
             \n● Llama-2 : Since this LLM is open source, we must use a hosting service, in our case, we used Replicate.\
             \n● OpenAI : We can simply use an OpenAI API key.\
             \n\nTo build a chatbot using srtreamlit, please check the following blog posts : \
