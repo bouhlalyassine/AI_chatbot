@@ -11,10 +11,6 @@ PAGE_ICON ="ico_potfolio.ico"
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 
 
-# Logo Pics
-pp_logo_portfolio = current_dir / "files" /  "logo_portfolio.png"
-linkpic_code = current_dir / "files" /  "code.png"
-
 lottie_robot = current_dir / "files" /  "robot.json"
 
 def load_lottiefile(filepath : str):
