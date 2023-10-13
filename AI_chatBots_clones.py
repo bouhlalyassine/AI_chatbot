@@ -9,21 +9,7 @@ st.set_page_config(page_title=TITLE,
     page_icon=PAGE_ICON,
     layout="wide")
 
-with open(css_file) as f: # Load the CSS file
-    st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
-
 with st.sidebar :
-    clickable_img_logo = get_img_with_href(pp_logo_portfolio, 'https://ybouhlal.streamlit.app/', 70, "blank")
-    st.markdown(clickable_img_logo, unsafe_allow_html=True)
-
-    st.markdown("<br>", unsafe_allow_html=True)
-
-    clickable_img = get_img_with_href(linkpic_code, 'https://github.com/bouhlalyassine/AI_chatbots',
-        170, "blank")
-    st.markdown(clickable_img, unsafe_allow_html=True)
-
-    st.markdown("<br>", unsafe_allow_html=True)
-
     nav_menu = option_menu(menu_title=None, options=['Home', 'Llama', 'OpenAI'], 
         
         default_index=0, orientation="vertical",
