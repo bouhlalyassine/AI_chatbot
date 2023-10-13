@@ -6,7 +6,6 @@ import openai
 # streamlit run AI_chatBots_clones.py
 
 st.set_page_config(page_title=TITLE,
-    page_icon=PAGE_ICON,
     layout="wide")
 
 with st.sidebar :

@@ -5,8 +5,6 @@ import streamlit as st
 import replicate
 
 TITLE = "AI ChatBot"
-PAGE_ICON ="ico_potfolio.ico"
-
 
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 
