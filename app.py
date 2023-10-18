@@ -19,8 +19,7 @@ def generate_response_HugHub(prompt, _llm):
     
     return answer
 
-st.set_page_config(page_title=TITLE,
-    page_icon="AI ChatBot",
+st.set_page_config(page_title="AI ChatBot",
     layout="wide")
 
 HUGGINGFACEHUB_API_TOKEN ="Your_huggingfacehub_api_token"
