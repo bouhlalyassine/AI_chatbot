@@ -1,5 +1,4 @@
 import streamlit as st
-from settings import*
 from streamlit_option_menu import option_menu
 from langchain.memory import ConversationBufferMemory
 from langchain.llms import HuggingFaceHub
